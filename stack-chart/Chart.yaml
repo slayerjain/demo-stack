@@ -4,10 +4,10 @@ description: Sample stack chart
 dependencies:
 - name: svc-a
   version: "1.2.3"
-  repository: "file://../svc-a"
+  repository: "file://../charts/svc-a"
 - name: svc-b
   version: "2.0.0"
-  repository: "file://../svc-b"
+  repository: "file://../charts/svc-b"
 
 # A chart can be either an 'application' or a 'library' chart.
 #

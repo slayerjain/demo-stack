@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: slayerjain/test-app
+  repository: slayerjain/stack-demo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.2.3"
+  tag: "svc-b-2.0.0"
 
 nameOverride: ""
 fullnameOverride: ""
