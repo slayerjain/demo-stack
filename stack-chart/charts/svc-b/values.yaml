@@ -8,7 +8,7 @@ image:
   repository: slayerjain/stack-demo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "svc-b-2.0.0"
+  tag: "svc-b-2.0.1"
 
 nameOverride: ""
 fullnameOverride: ""
